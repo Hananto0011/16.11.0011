@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	body{
+		background-image: url(wood.jpg);
+		background-size:  100%;
+	}
+
+	.relative{
+		position: relative;
+		top: 20px;
+		left: 20px;
+	}
+	div.absolute{
+		width: 500px;
+		height: 10px;
+		background-color: white; 
+		top:  100px;
+		bottom: 100px;
+		position: absolute;
+		opacity: 0.5;
+		transition: height 2s;
+	}
+
+	img{
+		width: 50%;
+		height: 50%;
+		position: relative;
+		opacity: 0,5;
+	}
+	div.segitiga{
+		height: 0px;
+		width: 0px;
+		border-left: 30px solide black;
+		border-right: 50px solid transparent;
+	}
+	div{
+		width: 0px;
+		height: 0px;
+		border-bottom: 50px solid red;
+		border-right: 50px solid transparent;
+
+	}
+
+	</style>
+
+</head>
+<body>
+<div class="relative"></div>
+<img src="cappucino.jpg">
+<div class="absolute"></div>
+<div class="segitiga"></div>
+</body>
+</html>
